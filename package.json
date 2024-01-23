@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
