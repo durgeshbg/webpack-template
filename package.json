@@ -4,10 +4,10 @@
   "description": "This is my template repository for webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --watch --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --watch --config ./webpack/webpack.dev.js",
+    "build": "webpack --config ./webpack/webpack.prod.js",
     "gh-pages": "git subtree push --prefix dist origin gh-pages",
-    "tests" : "jest --watch *.js"
+    "tests": "jest --watch *.js"
   },
   "keywords": [],
   "author": "",
