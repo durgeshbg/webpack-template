@@ -1,12 +1,12 @@
 {
   "name": "webpack-template",
   "version": "1.0.0",
-  "description": "This is my template repository for webpack",
+  "description": "This is a basic template repository for creating a webpack app",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch --config ./webpack/webpack.dev.js",
     "build": "webpack --config ./webpack/webpack.prod.js",
-    "gh-pages": "git subtree push --prefix dist origin gh-pages",
+    "deploy": "gh-pages -d dist",
     "tests": "jest --watch *.js"
   },
   "keywords": [],
@@ -21,6 +21,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.0",
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "prettier": "^3.1.1",
     "style-loader": "^3.3.3",
